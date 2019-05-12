@@ -1,11 +1,11 @@
 FROM openjdk:8-jre
 
 # Add the flyway user and step in the directory
-RUN adduser --system --home /flyway --disabled-password --group flyway
-WORKDIR /flyway
+# RUN adduser --system --home /flyway --disabled-password --group flyway
+# WORKDIR /flyway
 
 # Change to the flyway user
-USER flyway
+# USER flyway
 
 ENV FLYWAY_VERSION 6.0.0-beta
 
